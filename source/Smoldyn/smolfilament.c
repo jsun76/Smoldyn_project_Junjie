@@ -456,6 +456,7 @@ filamentptr filAlloc(filamentptr fil,int maxseg,int maxbranch,int maxsequence) {
 		fil->nseg=0;
 		fil->segments=NULL;
 		fil->nodes=NULL;
+		fil->filwork=NULL;
 		fil->nodesx=NULL;
 		fil->roll=NULL;
 		fil->nodemobility=NULL;
